@@ -27,6 +27,10 @@ or download from the url:https://github.com/manash997/django_pollsapp1.git
 
 7)login on app
 
+8)To use the admin panel one needs to create superuser:
+$ python manage.py create superuser
+//after creating superuser it can be accessed on url:/admin
+
 
 
 
