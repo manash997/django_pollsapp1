@@ -10,5 +10,10 @@ Successful login redirects the user to the app where he can view and answer mult
 #admin panel:
 Admin panel of the app allows exclusive access to superuser where he can view the information about registered users and also create or delete poll questions and options.
 
+#Installation:
+open terminal and type:git clone 
+
+
+
 
 
