@@ -11,7 +11,9 @@ Successful login redirects the user to the app where he can view and answer mult
 Admin panel of the app allows exclusive access to superuser where he can view the information about registered users and also create or delete poll questions and options.
 
 #Installation:
-open terminal and type:git clone 
+open terminal and type:git clone https://github.com/manash997/django_pollsapp1.git
+
+or download from the url:https://github.com/manash997/django_pollsapp1.git
 
 
 
