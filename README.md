@@ -11,15 +11,24 @@ Successful login redirects the user to the app where he can view and answer mult
 Admin panel of the app allows exclusive access to superuser where he can view the information about registered users and also create or delete poll questions and options.
 
 #Installation:
-1)Create virtual env using cmd
+prerequisite:Create an empty folder and open it on vscode or any ide.
+-set up new terminal on ide with cmd chosen
 
-2)On terminal type:git clone https://github.com/manash997/django_pollsapp1.git
+1)Create virtual env using cmd
+go to terminal and type: py -3 -m venv "virtualenvname"  //without quotes choose a name for virtual environment eg. py -3 -m venv test
+                       : virtualenvname/Scripts/activate  //eg. test/Scripts/activate
+
+2)install django on virtual env:pip install django
+
+3)Download the code from github repository
+On terminal type:git clone https://github.com/manash997/django_pollsapp1.git
 
 or download from the url:https://github.com/manash997/django_pollsapp1.git
 
-3)Change current directory to django_pollsapp1
+4)Change current directory to django_pollsapp1 using command:cd django_pollsapp1 
+-if downloaded from url type:cd completepath //specify the complete path of the code folder django_pollsapp1 
 
-4)$ pip install django
+
 
 5)$ python manage.py runserver  //This is to run the app on localhost
 
